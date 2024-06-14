@@ -1,0 +1,196 @@
+body{
+    font-family: 'Monterrat', sans-serif;
+}
+header {
+    background: #FFEBBC;
+    padding: 20px;
+}
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+nav {
+    position: absolute;
+    top: 55px;
+    right: 350px;
+}
+nav li {
+
+display: inline;
+margin: 0 0 0 15px;
+
+}
+nav a {
+text-transform: uppercase;
+text-decoration: none;
+color: #292830;
+font-weight: bold;
+font-size: 22px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 470px){
+    nav a{
+        font-size: 3em;
+    }
+
+@media screen and(max-width: 600px){
+    .caixa, .principal, .cardapio {
+        width: auto;
+    }
+}
+
+}
+
+nav a:hover {
+    color: #5DA7AE;
+    text-decoration: underline;
+} 
+.principal {
+padding: 3em 0;
+background :#FEFEFE;
+width: 940px;
+margin: 0 auto;
+} 
+.principal h2 {
+margin: 0 0 1em;
+font-size: 2em;
+line-height: 1.5;
+
+
+}
+.titulo-principal{
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+.mapa{
+    padding: 2em;
+    background: linear-gradient(#ffffff, #797979);
+}
+.mapa h3{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 20px;
+}
+.mapa-conteudo{
+    width: 700px;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #533a44;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    padding: 20px 0 0;
+}
+.cardapio{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.cardapio li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid#5DA7AE;
+    border-radius: 10px;
+    min-height: 400px;
+
+}
+
+.cardapio li:hover{
+    border-color: #533a44;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.cardapio li:active{
+    border-color: #5DA7AE;
+
+}
+.cardapio li:hover h1 {
+    font-size: 1.7em;
+    color: #292830;
+    transition: 2s;
+}
+
+.cardapio li:hover h2{
+    color: #292830;
+    transition: 2s;
+}
+.cardapio li:hover h3{
+    font-size: 1.5em;
+    color: #292830;
+    transition: 2s;
+}
+.cardapio-descrição{
+font-size: 1.3em;
+font-weight: bold;
+margin: 10px;
+
+}
+.cardapio-foto{
+    border-radius: 10px;
+    margin: 20px;
+    width: 80%;
+
+}
+.cardapio-preco{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px;
+
+}
+.cardapio h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+form{
+    margin: 40px 40px;
+
+}
+form label{
+display: block;
+font-size: 20px;
+margin: 0 0 12px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #5DA7AE;
+    color: #8673ff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+.enviar:hover{
+    background: #FFEBBC;
+    transform: scale (1.02);
+}
